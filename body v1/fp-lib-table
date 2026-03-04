@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Yosh Lib")(type "KiCad")(uri "C:/Users/MakerSpace/Documents/GitHub/ECAD-2026/lib/Yosh Lib.pretty")(options "")(descr ""))
+)

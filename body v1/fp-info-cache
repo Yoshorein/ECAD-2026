@@ -1,4 +1,4 @@
-26759690278340826
+26764998294154186
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97257,6 +97257,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+Seeed Studio XIAO ESP32S3 Plus KiCAD Library 2
+MOUDLE23P-SMD-2.54-21X17.8MM.kicad_mod.kicad_sym
+
+
+0
+37
+23
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -106525,3 +106532,17 @@ XIAO-nRF52840-SMD
 0
 22
 22
+Yosh Lib
+Driver tmc2209
+
+
+0
+16
+16
+Yosh Lib
+xiao s3+
+
+
+0
+88
+33
