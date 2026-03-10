@@ -1,4 +1,4 @@
-26764998294154186
+26766770913512665
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99364,6 +99364,13 @@ Logo WEEE
 0
 0
 0
+TEN 50-2411
+CONV_TEN_50-2411
+
+
+0
+6
+6
 TMC2209_SILENTSTEPSTICK
 MODULE_TMC2209_SILENTSTEPSTICK
 

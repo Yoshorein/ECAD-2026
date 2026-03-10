@@ -1193,156 +1193,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Small"
 			(pin_numbers
 				(hide yes)
@@ -2042,6 +1892,156 @@
 					(at 0 -2.54 90)
 					(length 0.762)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SS14"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS14"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 1A Schottky Diode, SMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS14_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS14_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6797,7 +6797,7 @@
 		(uuid "f9f193b1-ab83-4015-a066-ce8e4f0d3ebb")
 	)
 	(image
-		(at 269.24 172.72)
+		(at 233.68 172.72)
 		(scale 0.0616309)
 		(uuid "599eb5b0-c108-485c-999a-62f011ab44ac")
 		(data "iVBORw0KGgoAAAANSUhEUgAABqoAAANUCAYAAADLs3w1AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL"
@@ -23502,7 +23502,7 @@
 	)
 	(global_label "STEP 1"
 		(shape input)
-		(at 210.82 102.87 180)
+		(at 210.82 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23512,7 +23512,7 @@
 		)
 		(uuid "1f4bb1df-cdac-4edb-9d2e-435f7efc1627")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.0616 102.87 0)
+			(at 202.5407 143.4306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23546,7 +23546,7 @@
 	)
 	(global_label "STEP 3"
 		(shape input)
-		(at 210.82 110.49 180)
+		(at 210.82 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23556,7 +23556,7 @@
 		)
 		(uuid "224ab090-9525-4c72-bb77-1b046f959277")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.0616 110.49 0)
+			(at 202.5129 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23590,29 +23590,29 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 123.19 29.21 0)
+		(at 110.49 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "30accb92-06fe-4f08-8824-e9ad5dd79677")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.6223 29.21 0)
+			(at 103.9972 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "STEP 2"
 		(shape input)
-		(at 210.82 106.68 180)
+		(at 210.82 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23622,7 +23622,7 @@
 		)
 		(uuid "30fb2f69-3237-455e-9f9a-5c93fa356fd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.0616 106.68 0)
+			(at 201.0616 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23656,22 +23656,22 @@
 	)
 	(global_label "DIR 4"
 		(shape input)
-		(at 271.78 135.89 0)
+		(at 210.82 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3ce4f193-de97-4db1-ba9c-e985181599cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.7566 135.89 0)
+			(at 201.0616 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -23766,22 +23766,22 @@
 	)
 	(global_label "En5VP"
 		(shape input)
-		(at 210.82 143.51 180)
+		(at 271.78 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "516f1918-cd11-4906-8e35-274dcc185b5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.5407 143.4306 0)
+			(at 278.7566 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -23830,28 +23830,6 @@
 			)
 		)
 	)
-	(global_label "TSW"
-		(shape input)
-		(at 271.78 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6298f5d2-0c87-4956-9977-612825685454")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.3937 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 40.64 80.01 180)
@@ -23870,28 +23848,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED"
-		(shape input)
-		(at 271.78 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "73c832a0-5bff-4185-9fa4-05901cdd3403")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.2123 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -23920,7 +23876,7 @@
 	)
 	(global_label "STEP 4"
 		(shape input)
-		(at 210.82 114.3 180)
+		(at 210.82 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23930,7 +23886,7 @@
 		)
 		(uuid "7b535788-0005-46b9-8323-32f486dcdb46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.0616 114.3 0)
+			(at 201.0616 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23986,7 +23942,7 @@
 	)
 	(global_label "DIR 2"
 		(shape input)
-		(at 210.82 133.35 180)
+		(at 210.82 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23996,7 +23952,7 @@
 		)
 		(uuid "8a1d300c-4405-4420-8cc8-a2cd1538ddc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.5129 133.35 0)
+			(at 201.0616 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24096,7 +24052,7 @@
 	)
 	(global_label "DIR 3"
 		(shape input)
-		(at 210.82 135.89 180)
+		(at 210.82 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24106,7 +24062,7 @@
 		)
 		(uuid "98c81ed7-2ab0-4fff-861b-b4b3d26f6bf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.5129 135.89 0)
+			(at 202.5129 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24118,7 +24074,7 @@
 	)
 	(global_label "PWM"
 		(shape input)
-		(at 271.78 114.3 0)
+		(at 271.78 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24128,7 +24084,7 @@
 		)
 		(uuid "9fe689c1-c207-40b4-8a4c-626f8d67e076")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.938 114.3 0)
+			(at 278.2123 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24204,28 +24160,6 @@
 			)
 		)
 	)
-	(global_label "Buzzer"
-		(shape input)
-		(at 271.78 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bb70ce5f-0c08-49c8-bfe1-3a4c7e6721f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.1152 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TX"
 		(shape input)
 		(at 110.49 21.59 180)
@@ -24272,7 +24206,7 @@
 	)
 	(global_label "DIR 1"
 		(shape input)
-		(at 210.82 130.81 180)
+		(at 210.82 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24282,7 +24216,7 @@
 		)
 		(uuid "ce438114-cd4c-4103-a9d0-6a708c905665")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.5129 130.81 0)
+			(at 202.5129 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24305,6 +24239,28 @@
 		(uuid "d3dc0e58-34f6-40c5-976a-5791ea279751")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.0384 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TSW"
+		(shape input)
+		(at 271.78 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcbd912d-3f6f-45a2-825e-de454f5c9b2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.938 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24349,6 +24305,28 @@
 		(uuid "de68f6cc-584d-42c4-83c6-105795303352")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.5871 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED"
+		(shape input)
+		(at 271.78 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e328a111-0766-4a03-b5e0-3536742f2053")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.3937 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24404,22 +24382,22 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 110.49 26.67 180)
+		(at 123.19 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f74a2183-597b-4756-9085-1f962919fe1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.9972 26.67 0)
+			(at 129.6223 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -24500,7 +24478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "063fae2d-f949-4f6e-ac88-0eb0eb1667f8")
-		(property "Reference" "J5"
+		(property "Reference" "P9"
 			(at 64.77 184.1499 0)
 			(effects
 				(font
@@ -24519,7 +24497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 62.23 182.88 0)
 			(effects
 				(font
@@ -24554,7 +24532,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "J5")
+					(reference "P9")
 					(unit 1)
 				)
 			)
@@ -24562,7 +24540,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 176.53 270)
+		(at 57.15 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24571,7 +24549,7 @@
 		(fields_autoplaced yes)
 		(uuid "065761ef-6248-4e50-a190-cac25319d52f")
 		(property "Reference" "#PWR048"
-			(at 50.8 176.53 0)
+			(at 50.8 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24580,7 +24558,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 176.5299 90)
+			(at 53.34 177.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24589,7 +24567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 176.53 0)
+			(at 57.15 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24598,7 +24576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 176.53 0)
+			(at 57.15 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24607,7 +24585,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 176.53 0)
+			(at 57.15 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24758,7 +24736,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 57.15 173.99 90)
+		(at 57.15 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24767,7 +24745,7 @@
 		(fields_autoplaced yes)
 		(uuid "09adea9f-abd5-41b9-a66c-8e6ce13f79db")
 		(property "Reference" "#PWR052"
-			(at 60.96 173.99 0)
+			(at 60.96 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24776,7 +24754,7 @@
 			)
 		)
 		(property "Value" "+5VL"
-			(at 53.34 173.9899 90)
+			(at 53.34 175.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24785,7 +24763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 173.99 0)
+			(at 57.15 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24794,7 +24772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 173.99 0)
+			(at 57.15 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24803,7 +24781,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 57.15 173.99 0)
+			(at 57.15 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25088,74 +25066,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 275.59 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10e0e941-7d57-469d-a7ee-9277cd028533")
-		(property "Reference" "D1"
-			(at 275.2725 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 275.2725 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 275.59 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5078bad3-d0cf-431c-aaaa-fa1bc7572462")
-		)
-		(pin "1"
-			(uuid "4f53ca0f-229d-418e-be21-a689b13642fa")
-		)
-		(instances
-			(project ""
-				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 53.34 129.54 0)
 		(unit 1)
@@ -25363,7 +25273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17619650-714b-4fcf-90f8-369e676ef338")
-		(property "Reference" "A3"
+		(property "Reference" "P3"
 			(at 97.79 22.8599 0)
 			(effects
 				(font
@@ -25382,7 +25292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 95.25 21.59 0)
 			(effects
 				(font
@@ -25417,7 +25327,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "A3")
+					(reference "P3")
 					(unit 1)
 				)
 			)
@@ -25952,7 +25862,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 62.23 173.99 0)
+		(at 62.23 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25960,7 +25870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2375a548-8a8c-468f-900f-8149ec148a69")
-		(property "Reference" "J10"
+		(property "Reference" "L2"
 			(at 64.77 175.2599 0)
 			(effects
 				(font
@@ -25970,7 +25880,7 @@
 			)
 		)
 		(property "Value" "Lidar"
-			(at 64.2621 177.1266 0)
+			(at 64.77 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25978,8 +25888,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical"
-			(at 62.23 173.99 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 62.23 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25988,7 +25898,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 173.99 0)
+			(at 62.23 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25997,7 +25907,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 173.99 0)
+			(at 62.23 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26013,7 +25923,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "J10")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -26165,7 +26075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "292f1900-c209-469e-ab44-3529ae4ee6c1")
-		(property "Reference" "A4"
+		(property "Reference" "P4"
 			(at 97.79 29.2099 0)
 			(effects
 				(font
@@ -26184,7 +26094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 95.25 27.94 0)
 			(effects
 				(font
@@ -26219,7 +26129,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "A4")
+					(reference "P4")
 					(unit 1)
 				)
 			)
@@ -26362,7 +26272,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 62.23 189.23 0)
+		(at 62.23 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26370,8 +26280,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e2eb7ca-1232-402a-b111-a85022696636")
-		(property "Reference" "J4"
-			(at 64.77 190.4999 0)
+		(property "Reference" "P10"
+			(at 64.77 191.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26380,7 +26290,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 64.2621 192.3666 0)
+			(at 64.2621 193.6366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26389,8 +26299,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical"
-			(at 62.23 189.23 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 62.23 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26399,7 +26309,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 189.23 0)
+			(at 62.23 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26408,7 +26318,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 189.23 0)
+			(at 62.23 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26424,7 +26334,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "J4")
+					(reference "P10")
 					(unit 1)
 				)
 			)
@@ -26793,7 +26703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONV_TEN_50-2411"
+		(property "Footprint" "TEN 50-2411:CONV_TEN_50-2411"
 			(at 105.41 167.64 0)
 			(effects
 				(font
@@ -27094,7 +27004,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 191.77 270)
+		(at 57.15 193.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27103,7 +27013,7 @@
 		(fields_autoplaced yes)
 		(uuid "3eac6bd2-7c4a-4eaa-b6dd-463338ccaa56")
 		(property "Reference" "#PWR044"
-			(at 50.8 191.77 0)
+			(at 50.8 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27112,7 +27022,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 191.7699 90)
+			(at 53.34 193.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27121,7 +27031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 191.77 0)
+			(at 57.15 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27130,7 +27040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 191.77 0)
+			(at 57.15 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27139,7 +27049,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 191.77 0)
+			(at 57.15 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27570,7 +27480,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 57.15 189.23 90)
+		(at 57.15 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27579,7 +27489,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fc6c1ec-f958-4210-9c0e-5670403b4940")
 		(property "Reference" "#PWR054"
-			(at 60.96 189.23 0)
+			(at 60.96 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27588,7 +27498,7 @@
 			)
 		)
 		(property "Value" "+5VL"
-			(at 53.34 189.2299 90)
+			(at 53.34 190.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27597,7 +27507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 189.23 0)
+			(at 57.15 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27606,7 +27516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 189.23 0)
+			(at 57.15 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27615,7 +27525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 57.15 189.23 0)
+			(at 57.15 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27694,6 +27604,74 @@
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS14")
+		(at 275.59 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "539a0108-a031-4693-8f81-b4adb61ca6a0")
+		(property "Reference" "D1"
+			(at 275.2725 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 275.2725 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 275.59 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 275.59 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 275.59 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90c25799-2a57-4940-9de6-bd14e2a191d2")
+		)
+		(pin "2"
+			(uuid "b89521c7-f765-4da4-9042-f3543f3f9117")
+		)
+		(instances
+			(project ""
+				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -28086,8 +28064,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5beb49b1-f781-4bfe-8a1a-7e510b93d876")
-		(property "Reference" "J3"
-			(at 108.4579 68.9415 0)
+		(property "Reference" "L1"
+			(at 107.95 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28146,7 +28124,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "J3")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -28390,7 +28368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60132f23-03e9-4d7c-b697-0fbce95a2169")
-		(property "Reference" "A1"
+		(property "Reference" "P1"
 			(at 82.55 22.8599 0)
 			(effects
 				(font
@@ -28409,7 +28387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 80.01 21.59 0)
 			(effects
 				(font
@@ -28444,7 +28422,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "A1")
+					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -28721,7 +28699,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67d244be-4283-41a0-bae6-6df83079cacd")
-		(property "Reference" "J1"
+		(property "Reference" "Bat1"
 			(at 16.51 130.81 0)
 			(effects
 				(font
@@ -28772,7 +28750,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "J1")
+					(reference "Bat1")
 					(unit 1)
 				)
 			)
@@ -28856,7 +28834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "698bed30-b057-4037-b7a5-0e35d2824b96")
-		(property "Reference" "J16"
+		(property "Reference" "P6"
 			(at 90.932 140.97 0)
 			(effects
 				(font
@@ -28872,7 +28850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 86.36 143.51 0)
 			(effects
 				(font
@@ -28907,7 +28885,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "J16")
+					(reference "P6")
 					(unit 1)
 				)
 			)
@@ -29874,7 +29852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88376a47-c28b-48cb-ae86-d3b3e2e76c15")
-		(property "Reference" "A8"
+		(property "Reference" "DRV2"
 			(at 26.67 74.9299 0)
 			(effects
 				(font
@@ -29893,7 +29871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 24.13 73.66 0)
 			(effects
 				(font
@@ -29928,7 +29906,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "A8")
+					(reference "DRV2")
 					(unit 1)
 				)
 			)
@@ -30010,7 +29988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88eb9a02-99e0-4568-9885-cbb6c168a19d")
-		(property "Reference" "J9"
+		(property "Reference" "P8"
 			(at 64.77 163.8299 0)
 			(effects
 				(font
@@ -30029,7 +30007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 62.23 162.56 0)
 			(effects
 				(font
@@ -30064,7 +30042,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "J9")
+					(reference "P8")
 					(unit 1)
 				)
 			)
@@ -30144,7 +30122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d2a78ab-0275-4a44-8c59-18e3f5a0f07e")
-		(property "Reference" "J20"
+		(property "Reference" "P11"
 			(at 102.87 190.5 0)
 			(effects
 				(font
@@ -30163,7 +30141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 104.14 185.42 0)
 			(effects
 				(font
@@ -30198,7 +30176,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "J20")
+					(reference "P11")
 					(unit 1)
 				)
 			)
@@ -30411,7 +30389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92715e97-be5e-4f7d-baed-ecba0d5fba66")
-		(property "Reference" "J26"
+		(property "Reference" "P12"
 			(at 123.19 190.5 0)
 			(effects
 				(font
@@ -30430,7 +30408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 124.46 185.42 0)
 			(effects
 				(font
@@ -30465,7 +30443,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "J26")
+					(reference "P12")
 					(unit 1)
 				)
 			)
@@ -31050,7 +31028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2245057-12ee-41c6-acde-61845c6ff19d")
-		(property "Reference" "J8"
+		(property "Reference" "P7"
 			(at 64.77 157.4799 0)
 			(effects
 				(font
@@ -31069,7 +31047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 62.23 156.21 0)
 			(effects
 				(font
@@ -31104,7 +31082,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "J8")
+					(reference "P7")
 					(unit 1)
 				)
 			)
@@ -32872,7 +32850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d607eb9a-23b4-4372-bc45-8aa1d6977fee")
-		(property "Reference" "J7"
+		(property "Reference" "P5"
 			(at 90.678 133.35 0)
 			(effects
 				(font
@@ -32888,7 +32866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 86.36 135.89 0)
 			(effects
 				(font
@@ -32923,7 +32901,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "J7")
+					(reference "P5")
 					(unit 1)
 				)
 			)
@@ -33220,7 +33198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2f06edb-a9f6-4420-9614-287632c5e8b1")
-		(property "Reference" "A2"
+		(property "Reference" "P2"
 			(at 82.55 29.2099 0)
 			(effects
 				(font
@@ -33239,7 +33217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 80.01 27.94 0)
 			(effects
 				(font
@@ -33274,7 +33252,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "A2")
+					(reference "P2")
 					(unit 1)
 				)
 			)
@@ -33925,7 +33903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdfee5b3-d724-4a68-b4b3-fece671f0b36")
-		(property "Reference" "A7"
+		(property "Reference" "DRV1"
 			(at 26.67 68.5799 0)
 			(effects
 				(font
@@ -33944,7 +33922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 24.13 67.31 0)
 			(effects
 				(font
@@ -33979,7 +33957,7 @@
 		(instances
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "A7")
+					(reference "DRV1")
 					(unit 1)
 				)
 			)
