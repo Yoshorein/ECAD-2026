@@ -3002,7 +3002,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:FINDER-36.11"
+		(symbol "Relay:G2RL-1-E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3015,7 +3015,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "FINDER-36.11"
+			(property "Value" "G2RL-1-E"
 				(at 11.43 1.27 0)
 				(effects
 					(font
@@ -3024,16 +3024,17 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Relay_THT:Relay_SPDT_Finder_36.11"
-				(at 32.258 -0.762 0)
+			(property "Footprint" "Relay_THT:Relay_SPDT_Omron_G2RL-1-E"
+				(at 11.43 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf"
+			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3042,7 +3043,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "FINDER 36.11, SPDT relay, 10A"
+			(property "Description" "General Purpose Low Profile Relay SPDT Through Hole High Capacity, Omron G2RL series, 16A 250VAC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3051,7 +3052,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "spdt relay"
+			(property "ki_keywords" "Single Pole Relay SPDT Omron High Capacity"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3060,7 +3061,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay*SPDT*Finder*36.11*"
+			(property "ki_fp_filters" "Relay?SPDT?Omron?G2RL*E*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3069,34 +3070,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "FINDER-36.11_0_0"
+			(symbol "G2RL-1-E_0_0"
 				(polyline
 					(pts
-						(xy 2.54 3.81) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.81) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.81) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
 					)
 					(stroke
 						(width 0)
@@ -3107,7 +3084,7 @@
 					)
 				)
 			)
-			(symbol "FINDER-36.11_0_1"
+			(symbol "G2RL-1-E_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -3204,18 +3181,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 1.905 0) (xy 2.54 0)
 					)
 					(stroke
@@ -3228,7 +3193,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
 					)
 					(stroke
 						(width 0)
@@ -3275,7 +3240,7 @@
 					)
 				)
 			)
-			(symbol "FINDER-36.11_1_1"
+			(symbol "G2RL-1-E_1_1"
 				(pin passive line
 					(at -5.08 7.62 270)
 					(length 2.54)
@@ -5549,12 +5514,6 @@
 		(uuid "16063a8c-fa23-4bba-8228-7f2c617b8b4e")
 	)
 	(junction
-		(at 35.56 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d8adb37-8ace-4c2e-aae5-552e1f20ee74")
-	)
-	(junction
 		(at 81.28 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5613,6 +5572,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65ee251e-0a4f-4089-ac69-f94617e17dc8")
+	)
+	(junction
+		(at 35.56 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8974edd0-a500-47b8-99e3-18c59064ebef")
 	)
 	(junction
 		(at 88.9 30.48)
@@ -5980,7 +5945,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 128.27) (xy 35.56 120.65)
+			(xy 35.56 120.65) (xy 35.56 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6520,16 +6485,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 130.81) (xy 35.56 128.27)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "d7fa323d-3b91-4f5c-b036-39fa1b82070a")
-	)
-	(wire
-		(pts
 			(xy 81.28 68.58) (xy 81.28 66.04)
 		)
 		(stroke
@@ -6667,6 +6622,16 @@
 			(type solid)
 		)
 		(uuid "f386305b-b4dd-44b1-9cf5-8ad1ba78cf0e")
+	)
+	(wire
+		(pts
+			(xy 35.56 128.27) (xy 35.56 130.81)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f43eccc0-8229-495c-b5c2-22e3c05190d1")
 	)
 	(wire
 		(pts
@@ -21125,7 +21090,25 @@
 			"RAB0AEkAdABWAHUATwB4AHgANQA3AEMANgBqAFYAcgBkAEEANABuAHgATQBmAGkAbAArAGYAOABY"
 			"AE8AegBYAHEAVQBhAHoAMgBjAGkARQBHAHIAdABKAGQAVQBJADcAdABHAEsAUAA4ADYARwA2AHYA"
 			"aAA2AGYAaQB2ADIAOQA5AE8AdgBGADYASgAyAFMAaABpAHUAdQB2AGgASQB4AE0AaAA1AEsAdAB3"
-			"AGQAWQBRAEoARQBUACsALwBmAGwASQBUAHQAbgBEAHkAWgBQAG0AUwBJAA=="
+			"AGQAWQBRAEoARQBUACsALwBmAGwASQBUAHQAbgBEAHkAWgBQAG0AUwBJAAAAAPMBcugCAABYlwFy"
+			"6AIAACiXAXLoAgAAePYBcugCAABwlwFy6AIAAECXAXLoAgAAwPgBcugCAACIlwFy6AIAAFiXAXLo"
+			"AgAA4MkBcugCAACglwFy6AIAAHCXAXLoAgAAuMsBcugCAAC4lwFy6AIAAIiXAXLoAgAAMM8BcugC"
+			"AADQlwFy6AIAAKCXAXLoAgAAeNEBcugCAADolwFy6AIAALiXAXLoAgAAgNQBcugCAACQ8MB26AIA"
+			"ANCXAXLoAgAAWNYBcugCAABg8MB26AIAAJDwwHboAgAAoNgBcugCAAAwmAFy6AIAAGDwwHboAgAA"
+			"UP4BcugCAABImAFy6AIAABiYAXLoAgAAWAECcugCAABgmAFy6AIAADCYAXLoAgAAMAMCcugCAAB4"
+			"mAFy6AIAAEiYAXLoAgAAeAUCcugCAACQmAFy6AIAAGCYAXLoAgAAwAcCcugCAADAmAFy6AIAAHiY"
+			"AXLoAgAAKAkCcugCAADAmAFy6AIAAJCYAXLoAgAAAAsCcugCAADwmAFy6AIAAJCYAXLoAgAAIA4C"
+			"cugCAADwmAFy6AIAAMCYAXLoAgAA+A8CcugCAAAImQFy6AIAAMCYAXLoAgAAQBICcugCAACAmQFy"
+			"6AIAAPCYAXLoAgAAiBQCcugCAACAmQFy6AIAAAiZAXLoAgAAYBYCcugCAACAmQFy6AIAACCZAXLo"
+			"AgAAOBgCcugCAACAmQFy6AIAADiZAXLoAgAAEBoCcugCAACAmQFy6AIAAFCZAXLoAgAA6BsCcugC"
+			"AAAAAAAAAAAAAAiZAXLoAgAA8BwCcugCAACwmQFy6AIAAKC1znboAgAAMB8CcugCAADImQFy6AIA"
+			"AJiZAXLoAgAAaCMCcugCAADw88B26AIAALCZAXLoAgAAQCUCcugCAAD4mQFy6AIAAMiZAXLoAgAA"
+			"2CcCcugCAAAQmgFy6AIAAPDzwHboAgAAaCwCcugCAADA88B26AIAAPiZAXLoAgAAgAAJcugCAABA"
+			"mgFy6AIAABCaAXLoAgAAiAIJcugCAACQ88B26AIAAMDzwHboAgAAAAQJcugCAABwmgFy6AIAAECa"
+			"AXLoAgAAcAUJcugCAACImgFy6AIAAJDzwHboAgAAAAoJcugCAABg88B26AIAAHCaAXLoAgAA2AsJ"
+			"cugCAAC4mgFy6AIAAIiaAXLoAgAA4A0JcugCAADQmgFy6AIAAGDzwHboAgAAWA8JcugCAADomgFy"
+			"6AIAALiaAXLoAgAA4DYJcugCAAAAmwFy6AIAANCaAXLoAgAAuDgJcugCAAAYmwFy6AIAAOiaAXLo"
+			"AgAA8DwJcugCAAAw88B26AIAAACbAXLoAgAAyD4JcugCAABImwFy6AIAAA=="
 		)
 	)
 	(image
@@ -23283,7 +23266,25 @@
 			"//////CmlZ1UAQAA+P////////8AAAAAAAAAAPj/////////cJOVnVQBAAD4/////////wMAAABU"
 			"AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQoJSdVAEAANCglJ1UAQAAEAAAAAAA"
 			"AAAAAAAAVAEAAPj/////////AAAAAAAAAAD4/////////7CclZ1UAQAA+P////////8AAAAAAAAA"
-			"APj/////////AAAAAAAAAAD4/////////7CvlZ1UAQAA+P////////9wpZWdVAEAAPj//w=="
+			"APj/////////AAAAAAAAAAD4/////////7CvlZ1UAQAA+P////////9wpZWdVAEAAPj//3HoAgAA"
+			"IPq3cegCAADw7bdx6AIAAFD3t3HoAgAAUOi3cegCAADw3rdx6AIAAGDJt3HoAgAAsNO3cegCAADA"
+			"4bdx6AIAAEDpt3HoAgAAoPK3cegCAACtAACt2cnwAJA28WzoAgAAEOVBVOgCAABQyrdx6AIAAODu"
+			"t3HoAgAAQNq3cegCAAAwzLdx6AIAAODBt3HoAgAAgMe3cegCAADg37dx6AIAAAD8t3HoAgAA8MC3"
+			"cegCAABwyLdx6AIAACDNt3HoAgAAkOS3cegCAADQwrdx6AIAAKDjt3HoAgAA0OC3cegCAAAw+bdx"
+			"6AIAANDvt3HoAgAAYNi3cegCAACgxbdx6AIAADDbt3HoAgAAcOa3cegCAADAw7dx6AIAAGDnt3Ho"
+			"AgAAQPi3cegCAACw8bdx6AIAAIDWt3HoAgAAkPO3cegCAACwxLdx6AIAABDOt3HoAgAAAM+3cegC"
+			"AACQ1bdx6AIAANDRt3HoAgAAoNS3cegCAABw17dx6AIAAFDZt3HoAgAAoC64cegCAACwLbhx6AIA"
+			"AFAkuHHoAgAAIBi4cegCAABAFrhx6AIAACAnuHHoAgAAkC+4cegCAACwHrhx6AIAAGAjuHHoAgAA"
+			"oB+4cegCAAAQN7hx6AIAAOAMuHHoAgAAwA64cegCAABAJbhx6AIAAIAhuHHoAgAAADi4cegCAACA"
+			"Erhx6AIAADAXuHHoAgAAUDO4cegCAAAAGrhx6AIAAMAduHHoAgAAQDS4cegCAADQ/rdx6AIAAJAg"
+			"uHHoAgAAwP+3cegCAADwGrhx6AIAABAZuHHoAgAAgDC4cegCAADw/Ldx6AIAANANuHHoAgAAoBC4"
+			"cegCAAAQKLhx6AIAAHAxuHHoAgAAsA+4cegCAABgMrhx6AIAAOAbuHHoAgAA0By4cegCAAAwNbhx"
+			"6AIAALAAuHHoAgAAcBO4cegCAABgFLhx6AIAAAApuHHoAgAAUBW4cegCAADwC7hx6AIAADAIuHHo"
+			"AgAAcCK4cegCAACgAbhx6AIAADAmuHHoAgAA8Cm4cegCAAAgNrhx6AIAAOAquHHoAgAA0Cu4cegC"
+			"AACQArhx6AIAAGAFuHHoAgAAgAO4cegCAADALLhx6AIAAOD9t3HoAgAAcAS4cegCAABQBrhx6AIA"
+			"AEAHuHHoAgAAIAm4cegCAAAQCrhx6AIAAAALuHHoAgAAkBG4cegCAAAAR7hx6AIAANBnuHHoAgAA"
+			"IFS4cegCAAAAdLhx6AIAAKBMuHHoAgAAkD64cegCAABAUrhx6AIAAEBhuHHoAgAA4Ei4cegCAABg"
+			"brhx6AIAAPBluHHoAgAAwDu4cegCAAAQVbhx6AIAABBkuHHoAgAAUFG4cegCAADAaLhx6A=="
 		)
 	)
 	(label "24VD"
@@ -25859,6 +25860,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:G2RL-1-E")
+		(at 43.18 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23a43f47-e112-4ed8-9542-fb492a9b7195")
+		(property "Reference" "K1"
+			(at 43.18 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G2RL-1-E"
+			(at 43.18 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Omron_G2RL-1-E"
+			(at 41.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
+			(at 43.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Low Profile Relay SPDT Through Hole High Capacity, Omron G2RL series, 16A 250VAC"
+			(at 43.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A2"
+			(uuid "751d826e-d19b-4d3a-8778-d5e12395a904")
+		)
+		(pin "11"
+			(uuid "e6b82051-cf20-4b10-a4a1-9ce6ea058953")
+		)
+		(pin "A1"
+			(uuid "c6460820-c768-4f9c-bf80-c0a4240b9887")
+		)
+		(pin "12"
+			(uuid "c4d6c72c-655f-47ad-ad5c-a3c558335bec")
+		)
+		(pin "14"
+			(uuid "a2f20ad1-0cc7-48bc-a65b-8cc96256a6ff")
+		)
+		(instances
+			(project ""
+				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 25.4 44.45 270)
 		(mirror x)
@@ -27327,81 +27406,6 @@
 			(project "body v1"
 				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:FINDER-36.11")
-		(at 43.18 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a103a5c-6969-4ed4-9b0e-9575e688ece4")
-		(property "Reference" "K2"
-			(at 36.83 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FINDER-36.11"
-			(at 30.48 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_Finder_36.11"
-			(at 42.418 165.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf"
-			(at 43.18 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "21f3f040-f923-4076-be9b-37756ca9f594")
-		)
-		(pin "12"
-			(uuid "3b9b9c6c-c641-4823-af9e-12d96646e4d2")
-		)
-		(pin "14"
-			(uuid "bc3a6ae4-c552-4e64-8fb0-5d97e4ef47a1")
-		)
-		(pin "A1"
-			(uuid "2f570379-d720-4a2b-a939-5d40fbb15387")
-		)
-		(pin "A2"
-			(uuid "7e99af0a-e1ea-4a8a-a672-e65fa73523ba")
-		)
-		(instances
-			(project "body v1"
-				(path "/8f1e10df-43ee-4471-adf4-73daa5ef1ea4"
-					(reference "K2")
 					(unit 1)
 				)
 			)
