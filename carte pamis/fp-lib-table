@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TEN_50-2411")(type "KiCad")(uri "${KIPRJMOD}/TEN_50-2411")(options "")(descr ""))
+  (lib (name "TMC2209_SILENTSTEPSTICK")(type "KiCad")(uri "/${KIPRJMOD}/TMC2209_SILENTSTEPSTICK")(options "")(descr ""))
+  (lib (name "Seeed Studio XIAO Series Library")(type "KiCad")(uri "${KIPRJMOD}/Seeed Studio XIAO Series Library")(options "")(descr ""))
+  (lib (name "carte pamis")(type "KiCad")(uri "/Users/bastianperez/carte pamis")(options "")(descr ""))
+)

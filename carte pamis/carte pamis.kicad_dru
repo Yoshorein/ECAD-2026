@@ -1,0 +1,21 @@
+(version 1)
+
+(rule largeur_gnd
+    (condition "A.NetName == 'GND'")
+    (constraint track_width (min 1mm))
+)
+
+(rule largeur_5v
+    (condition "A.NetName == '+5V'")
+    (constraint track_width (min 0.6mm))
+)
+
+(rule largeur_3v3
+    (condition "A.NetName == '3V3'")
+    (constraint track_width (min 0.4mm))
+)
+
+(rule largeur_signaux
+    (condition "A.NetName != 'GND' && A.NetName != '+5V' && A.NetName != '3V3'")
+    (constraint track_width (min 0.25mm))
+)
